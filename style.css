@@ -26,3 +26,12 @@ h1{
 #counter-button:hover{
     background-image: linear-gradient( rgb(255, 0, 170),rgb(255, 0, 85));
 }
+
+
+@media only screen and (max-width: 600px) {
+    .counter-container{
+        height: 100%;
+     width: 100%;
+     margin: auto;
+    }
+  }
